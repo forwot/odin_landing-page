@@ -1,3 +1,32 @@
-html{
-    background-color: aquamarine;
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-links,
+.left-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+.left-links{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 0 160px;
+}
+.right-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0 80px;
 }
