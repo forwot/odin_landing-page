@@ -79,14 +79,48 @@ body {
 
 .body-two {
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
 }
-
-
-
-
-.body-two,
-.body-three,
-.body-four{
+.icon-frame{
+    border-color: #3882F6;
+    border-style: solid;
     background-color: white;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 140px;
+    height: 140px;
 }
+.info-box {
+    width: 140px;
+}
+.info-box .desc{
+    text-align: center;
+    font-size: 16px;
+}
+.collage-box{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.body-three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 100px 300px;
+}
+.source {
+    font-weight: bold;
+    font-size: 26px;
+}
+
