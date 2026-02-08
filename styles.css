@@ -124,3 +124,41 @@ body {
     font-size: 26px;
 }
 
+
+.body-four{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 120px;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    border-radius: 6px;
+}
+.body-four .hero{
+    font-size: 24px;
+    font-weight: bold;
+}
+.body-four .desc{
+    color: #E5E7EB;
+}
+.body-four .button{
+    color: #F9FAF8;
+    width: 100px;
+    height: 26px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
