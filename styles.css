@@ -8,7 +8,6 @@ body {
 
 .header {
     background-color: #1F2937 ;
-    color: white;
     display: flex;
     justify-content: space-between;
     gap: 380px;
@@ -32,7 +31,6 @@ body {
 .right-links{
     font-size: 18px;
     color: #E5E7EB;
-
 }
 
 .body-one{
@@ -67,8 +65,8 @@ body {
 }
 .hero .button {
     color: #F9FAF8;
-    width: 100px;
-    height: 26px;
+    width: 110px;
+    height: 30px;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
